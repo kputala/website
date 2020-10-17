@@ -3,14 +3,14 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #687980;
 }
 
-li {
+.navitm {
   float: left;
 }
 
-li a {
+.navitm a {
   display: block;
   color: white;
   text-align: center;
@@ -19,6 +19,6 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+.active, .navitm:hover {
+  background-color: #C55A11;
 }
