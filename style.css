@@ -34,3 +34,8 @@ div.mediadisplay {
     column-gap: 5%:
     column-rule: 2px solid #4472C4;
 }
+
+h2.mediah {
+  column-span: all;
+}
+
