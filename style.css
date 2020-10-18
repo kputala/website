@@ -9,11 +9,11 @@ nav {
   width: 100%;
 }
 
-li {
+li.navli {
   float: left;
 }
 
-li a {
+li.navli a {
   display: block;
   color: white;
   text-align: center;
