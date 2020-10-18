@@ -41,6 +41,8 @@ h2.mediah {
 }
 
 div.mediaVid{
-  align-content: center;
+  display: block;
+  width: auto;
+  margin: 0 auto;
 }
 
