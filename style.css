@@ -25,3 +25,12 @@ li a {
 .active, .navitm:hover {
   background-color: #C55A11;
 }
+
+/*media display column layout*/
+
+div.mediadisplay {
+    column-count: 3;
+    column-width: 30%
+    column-gap: 5%:
+    column-rule: 2px solid #4472C4;
+}
