@@ -1,29 +1,31 @@
-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-  position: fixed;
-  top: 0;
-  width: 100%;
+body {
+}
+ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li.navli {
-  float: left;
+    float: left;
 }
 
-li.navli a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    li.navli a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
 /* Change the link color to orange(C55A11) on hover */
 .active, .navitm:hover {
-  background-color: #C55A11;
+    background-color: #C55A11;
 }
 
 /*media display column layout*/
@@ -31,18 +33,15 @@ li.navli a {
 div.mediadisplay {
     max-height: 75%;
     column-count: 3;
-    column-width: 30%
-    column-gap: 5%:
-    column-rule: 2px solid #4472C4;
+    column-width: 30% column-gap: 5%: column-rule: 2px solid #4472C4;
 }
 
 h2.mediah {
-  column-span: all;
+    column-span: all;
 }
 
-div.mediaVid{
-  display: block;
-  width: 75%;
-  margin: 0 auto;
+div.mediaVid {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
 }
-
