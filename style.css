@@ -17,6 +17,7 @@ li.navli {
 
     li.navli a {
         display: block;
+        border-radius: 15px;
         color: white;
         text-align: center;
         padding: 14px 16px;
