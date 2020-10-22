@@ -102,6 +102,6 @@ h2.mediah {
 
 div.mediaVid {
     display: block;
-    width: 250px;
-    align-content:center;
+    width: 90%;
+    margin: auto;
 }
