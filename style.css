@@ -9,6 +9,16 @@ body {
     width: 100%;
 }
 
+    body.index {
+        background-image: url("bg3.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200%;
+        width: 100%;
+    }
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align:center; 
@@ -59,14 +69,14 @@ table {
     border: 1px solid black;
     width: 100%;
     padding-left: 10%;
-    
+    background-color: #687980;
+    border-color: white;
 }
 
 th td {
     padding: 5px;
     text-align: center;
     vertical-align: central;
-    box-shadow: 5px 5px 2.5px;
 }
 
 
@@ -157,7 +167,7 @@ input[type=submit] {
     clear: both;
 }
 
-/* Responsive stack entry fields in small viewport */
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .frm-25, .frm-75, input[type=submit] {
         width: 100%;
@@ -165,3 +175,16 @@ input[type=submit] {
     }
 }
 
+/* parallax media page*/
+div.media2 {
+    background-color: #DBDBDB;
+    border: ridge 2px;
+    margin: auto;
+    column-count: 3;
+    column-width: 250px;
+    column-gap: 25px;
+    column-rule: 2px solid black;
+    text-align: justify;
+    padding: 25px;
+    max-width: 90%;
+}
