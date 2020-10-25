@@ -69,6 +69,7 @@ table {
     border: 1px solid black;
     width: 100%;
     padding-left: 10%;
+    
 }
 
 th td {
@@ -141,7 +142,7 @@ input[type=submit] {
 
 .frmContain {
     border-radius: 5px;
-    background-color: #687980;
+    background-color: #637EA1;
     padding: 20px;
     width: 80%;
     margin: auto;
@@ -159,14 +160,14 @@ input[type=submit] {
     margin-top: 6px;
 }
 
-/* Clear floats*/
+/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Responsive -stack form on top with smaller viewport*/
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .frm-25, .frm-75, input[type=submit] {
         width: 100%;
