@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 
 </head>
-<body style="background-image: url('bg2.jpg'); background-repeat: no-repeat;">
+<body>
 
     <ol id="navBAR">
         <li class="navli"><a class="navitm" href="/website/index.html">Home</a></li>
@@ -15,16 +15,62 @@
         <li class="navli"><a class="navitm" href="/website/media.html">Media</a></li>
         <li class="navli" style="float:right"><a class="navitm" href="/website/contact.html">Contact</a></li>
     </ol>
+
     <br />
     <br />
     <h1> Contact </h1>
+    <p style="text-align: center;">If you have any comments or questions, please fill out the form below. I will respond to both professional and personal inquiries as they are received. <br />
+    Thanks!</p>
 
-    <p> This is my contact page. </p>
 
+    <div class="frmContain">
+        <form action="/action_page.php">
+            <div class="row">
+                <div class="frm-25">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="frm-75">
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="frm-25">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="frm-75">
+                    <input type="text" id="email" name="email" placeholder="example@example.com">
+                </div>
+            </div>
+            <div class="row">
+                <div class="frm-25">
+                    <label for="phone">Phone:</label>
+                </div>
+                <div class="frm-75">
+                    <input type="text" id="phone" name="phone" placeholder="1(888)888-8888" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="frm-25">
+                    <label for="comments">Comments/Inquiries</label>
+                </div>
+                <div class="frm-75">
+                    <textarea id="comments" name="comments" placeholder="Write comments or inquiries here.." style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    
 
     <footer style="text-align: center;">
-        <hr>
-        <h4> Contact </h4>
+        <hr />
         <a href="mailto:kputala@example.com"> example@example.com </a> | <a href="https://www.linkedin.com/in/kevin-putala-80428990/"> LinkedIN </a>
     </footer>
 </body>
