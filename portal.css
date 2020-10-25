@@ -6,6 +6,7 @@ body, html {
     
     background-image: url("bg3.jpg");
     height: 100%;
+    width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -16,6 +17,7 @@ body, html {
 .parallax2 {
     background-image: url("bg5.jpg");
     height: 100%;
+    width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
