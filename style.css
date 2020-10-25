@@ -157,7 +157,7 @@ input[type=submit] {
     clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive stack entry fields in small viewport */
 @media screen and (max-width: 600px) {
     .frm-25, .frm-75, input[type=submit] {
         width: 100%;
