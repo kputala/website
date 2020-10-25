@@ -41,6 +41,7 @@ ol {
 
 li.navli {
     float: left;
+    
 }
 
     li.navli a {
@@ -58,16 +59,17 @@ li.navli {
 }
 /* portfolio table layout*/
 
-div.container{
+div.container {
     width: 80%;
     padding-left: 10%;
+    
 }
 
-table{
+table {
     border: 1px solid black;
     width: 100%;
     padding-left: 10%;
-    
+    box-shadow: 10px 10px 5px;
 }
 
 th td {
@@ -102,6 +104,73 @@ h2.mediah {
 
 div.mediaVid {
     display: block;
-    width: 90%;
+    width: 250px;
+    align-content:center;
+}
+
+/*Contact Form*/
+
+
+
+input[type=text], select, textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #C55A11;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.frmContain {
+    border-radius: 5px;
+    background-color: #637EA1;
+    padding: 20px;
+    width: 80%;
     margin: auto;
 }
+
+.frm-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.frm-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .frm-25, .frm-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
