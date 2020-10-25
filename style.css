@@ -159,14 +159,14 @@ input[type=submit] {
     margin-top: 6px;
 }
 
-/* Clear floats after the columns */
+/* Clear floats*/
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive -stack form on top with smaller viewport*/
 @media screen and (max-width: 600px) {
     .frm-25, .frm-75, input[type=submit] {
         width: 100%;
