@@ -57,10 +57,10 @@ div.container {
 
 table {
     border: 1px solid black;
-    width: 100%;
-    padding-left: 10%;
-    background-color: #687980;
-    border-color: white;
+    width: 90%;
+    padding-left: 5%;
+    background-color: #DBDBDB;
+    
 }
 
 th td {
